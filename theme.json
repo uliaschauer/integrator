@@ -1,0 +1,302 @@
+{
+	"label":
+	{
+		"colours":
+		{
+			"normal_text": "#666666"
+		},
+		"font":
+		{
+			"name": "arial",
+			"size": "16"
+		},
+		"misc":
+		{
+			"text_horiz_alignment": "left"
+		}
+	},
+	"text_entry_line":
+	{
+		"colours":
+		{
+			"dark_bg": "#FFFFFF", 
+			"normal_text": "#666666"
+		},
+		"font":
+		{
+			"name": "arial",
+			"size": "16"
+		}
+	},
+	"drop_down_menu.#selected_option":
+	{
+		"colours":
+		{
+			"normal_bg": "#FFFFFF", 
+			"normal_text": "#666666"
+		},
+		"font":
+		{
+			"name": "arial",
+			"size": "16"
+		},
+		"misc":
+		{
+			"text_horiz_alignment": "left"
+		}
+	},
+	"drop_down_menu.#drop_down_options_list":
+	{
+		"colours":
+		{
+			"normal_bg": "#FFFFFF", 
+			"normal_text": "#666666"
+		},
+		"font":
+		{
+			"name": "arial",
+			"size": "16"
+		},
+		"misc":
+		{
+			"text_horiz_alignment": "left"
+		}
+	},
+	"drop_down_menu.#drop_down_options_list.button":
+	{
+		"colours":
+		{
+			"normal_bg": "#FFFFFF", 
+			"normal_text": "#666666"
+		},
+		"font":
+		{
+			"name": "arial",
+			"size": "16"
+		},
+		"misc":
+		{
+			"text_horiz_alignment": "left"
+		}
+	},
+	"#winning":
+	{
+		"colours":
+		{
+			"normal_text": "#4daf4a"
+		}
+	},
+	"#loosing":
+	{
+		"colours":
+		{
+			"normal_text": "#e41a1c"
+		}
+	},
+	"#ready_text":
+	{
+		"colours": 
+		{
+			"normal_text": "#c8771f"
+		},
+		"font":
+		{
+			"size": "60"
+		},
+		"misc":
+		{
+			"text_horiz_alignment": "center"
+		}
+
+	},
+	"#game_over_text":
+	{
+		"colours":
+		{
+			"normal_text": "#c8771f"
+		},
+		"font":
+		{
+			"size": "60"
+		},
+		"misc":
+		{
+			"text_horiz_alignment": "center"
+		}
+
+	},
+	"#launch_button":
+	{
+		"colours":
+		{
+			"normal_bg" : "#FFFFFF",
+			"hovered_bg" : "#FFFFFF",
+			"disabled_bg" : "#FFFFFF",
+			"selected_bg" : "#FFFFFF"
+		},
+		"images":
+		{
+			"normal_image": 
+			{
+                 "path":             "buttons.png",
+                 "sub_surface_rect": "0,0,80,80"
+            },
+			"hovered_image": 
+			{
+                 "path":             "buttons.png",
+                 "sub_surface_rect": "0,80,80,80"
+            },
+			"selected_image": 
+			{
+                 "path":             "buttons.png",
+                 "sub_surface_rect": "0,160,80,80"
+            },
+			"disabled_image": 
+			{
+                 "path":             "buttons.png",
+                 "sub_surface_rect": "0,240,80,80"
+            }
+		},
+		"misc":
+		{
+			"shape":                 "ellipse",
+			"border_width":          "0"
+		}
+	},
+	"#timeout_button":
+	{
+		"colours":
+		{
+			"normal_bg" : "#FFFFFF",
+			"hovered_bg" : "#FFFFFF",
+			"disabled_bg" : "#FFFFFF",
+			"selected_bg" : "#FFFFFF"
+		},
+		"images":
+		{
+			"normal_image": 
+			{
+                 "path":             "buttons.png",
+                 "sub_surface_rect": "160,0,80,80"
+            },
+			"hovered_image": 
+			{
+                 "path":             "buttons.png",
+                 "sub_surface_rect": "160,80,80,80"
+            },
+			"selected_image": 
+			{
+                 "path":             "buttons.png",
+                 "sub_surface_rect": "160,160,80,80"
+            },
+			"disabled_image": 
+			{
+                 "path":             "buttons.png",
+                 "sub_surface_rect": "160,240,80,80"
+            }
+		},
+		"misc":
+		{
+			"shape":                 "ellipse",
+			"border_width":          "0"
+		}
+	},
+	"#phone_button":
+	{
+		"colours":
+		{
+			"normal_bg" : "#FFFFFF",
+			"hovered_bg" : "#FFFFFF",
+			"disabled_bg" : "#FFFFFF",
+			"selected_bg" : "#FFFFFF"
+		},
+		"images":
+		{
+			"normal_image": 
+			{
+                 "path":             "buttons.png",
+                 "sub_surface_rect": "80,0,80,80"
+            },
+			"hovered_image": 
+			{
+                 "path":             "buttons.png",
+                 "sub_surface_rect": "80,80,80,80"
+            },
+			"selected_image": 
+			{
+                 "path":             "buttons.png",
+                 "sub_surface_rect": "80,160,80,80"
+            },
+			"disabled_image": 
+			{
+                 "path":             "buttons.png",
+                 "sub_surface_rect": "80,240,80,80"
+            }
+		},
+		"misc":
+		{
+			"shape":                 "ellipse",
+			"border_width":          "0"
+		}
+	},
+	"#code_display_verlet":
+	{
+		"colours":
+		{
+			"disabled_bg" : "#F5F5F5"
+		},
+		"images":
+		{
+			"disabled_image": 
+			{
+                 "path":             "algos.png",
+                 "sub_surface_rect": "0,0,300,80"
+            }
+		},
+		"misc":
+		{
+			"border_width": "0",
+			"shadow_width": "0"
+		}
+	},
+	"#code_display_velocity_verlet":
+	{
+		"colours":
+		{
+			"disabled_bg" : "#F5F5F5"
+		},
+		"images":
+		{
+			"disabled_image": 
+			{
+                 "path":             "algos.png",
+                 "sub_surface_rect": "0,80,300,80"
+            }
+		},
+		"misc":
+		{
+			"border_width": "0",
+			"shadow_width": "0"
+		}
+	},
+	"#code_display_leap_frog":
+	{
+		"colours":
+		{
+			"disabled_bg" : "#F5F5F5"
+		},
+		"images":
+		{
+			"disabled_image": 
+			{
+                 "path":             "algos.png",
+                 "sub_surface_rect": "0,160,300,80"
+            }
+		},
+		"misc":
+		{
+			"border_width": "0",
+			"shadow_width": "0"
+		}
+	}
+}
